@@ -116,12 +116,12 @@ header {
 
 /*---------------------------nav  */
 .fonc__h3 {
-  margin: 20px;
+  margin: 20px 20px 20px 10px;
   font-size: 30px;
 }
 
 .rest_h3 {
-  margin: 30px;
+  margin: 30px 30px 0 25px;
   font-size: 30px;
 
 }
