@@ -253,7 +253,8 @@
 
  .menupage {
      position: relative;
-     margin: 0px 15px 30px 15px;
+     padding: 0px 15px 30px 15px;
+    background-color: whitesmoke;
  }
 
  /*  ANIMATION - loader  */
