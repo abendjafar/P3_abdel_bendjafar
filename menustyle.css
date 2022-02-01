@@ -15,6 +15,7 @@
  h2 {
      font-family: "Shrikhand", cursive;
      text-align: center;
+     margin: 30px;
  }
 
  h3 {
@@ -30,6 +31,11 @@
      display: flex;
      justify-content: center;
      align-items: center;
+ }
+ .title-dish{
+     margin-bottom: 30px;
+     margin-top: 20px;
+
  }
 
  /*  HEADER  */
