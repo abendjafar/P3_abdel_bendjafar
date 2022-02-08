@@ -277,15 +277,15 @@
      height: 80px;
      display: inline-block;
      margin: 200px auto;
-     border-radius: 60px;
-     border-top: 4px solid #9356DC;
-     border-right: 4px solid rgba(91, 25, 93, 0.4);
-     border-bottom: 4px solid #9356DC;
-     border-left: 4px solid rgba(91, 25, 93, 0.4);
+     border-radius: 50%;
+     border-top: 5px solid #9356DC;
+     border-right: 5px solid rgba(91, 25, 93, 0.4);
+     border-bottom: 5px solid #9356DC;
+     border-left: 5px solid rgba(91, 25, 93, 0.4);
      animation-name: spin;
      animation-duration: 1200ms;
-     animation-timing-function: linear;
-     animation-iteration-count: 2;
+     animation-timing-function: linear; /*façon deroulement anim*/
+     animation-iteration-count: 2; /*nbrs de cycle*/
      animation-fill-mode: forwards;
 
  }
