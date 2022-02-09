@@ -225,7 +225,7 @@
      text-align: center;
  }
 
- /*  MAIN PAGES  */
+ 
  /*  MAIN PAGES - section intro  */
  .photopage {
      position: relative;
@@ -439,11 +439,11 @@
  .check {
      display: inline-block;
      margin: auto;
-     color: green;
+     color: #99E2D0;
      background-color: white;
      border-radius: 55%;
      padding: 10%;
-     font-size: 20px;
+     font-size: 10px;
      transform: rotate(360deg);
      transition: transform 500ms;
  }
