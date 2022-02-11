@@ -435,11 +435,11 @@ footer .footer-link .item a {
   border-right: 5px double rgba(91, 25, 93, 0.4);
   border-bottom: 7px solid #ff79da;
   border-left: 5px double rgba(91, 25, 93, 0.4);
-  animation-name: spin;
+  animation-name: spin; 
 
   animation-duration: 1200ms;
 
-  animation-timing-function: linear;
+  animation-timing-function: linear; 
 
   animation-iteration-count: 2;
 
