@@ -238,8 +238,8 @@ header {
   padding-bottom: 0px;
   background-color: #fff;
   border-radius: 0px 0px 20px 20px;
-  font-size :x-large;
-  font-weight:bolder;
+  font-size: x-large;
+  font-weight: bolder;
 
 
 }
@@ -385,109 +385,100 @@ footer .footer-link .item a {
   .menu {
     width: 800px;
   }
+ /* SECTIONS PAGES  */
 
-  /* .fonc__h3 {
-   display: inline-block;
-   align-items: flex-start;
-   /* justify-content: flex-start; */
-
-}
-
-*/
-/* SECTIONS PAGES  */
-
-.intro,
-.menupage {
-  width: 834px;
-}
-
-.container {
-
-  align-items: center;
-}
-
-/*  BOUTONS DE SELECTION PLATS  */
-
-.btn-dish {
-  width: 95%;
-}
-
-
-.title-dish {
-  width: 95%;
-}
-
-/*  ANIMATION - loader  */
-.loader {
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  text-align: center;
-}
-
-.loader-side {
-  width: 80px;
-  height: 80px;
-  display: inline-block;
-  margin: 400px auto;
-  border-radius: 50px;
-  border-top: 7px solid #9356DC;
-  border-right: 5px double rgba(91, 25, 93, 0.4);
-  border-bottom: 7px solid #ff79da;
-  border-left: 5px double rgba(91, 25, 93, 0.4);
-  animation-name: spin; 
-
-  animation-duration: 1200ms;
-
-  animation-timing-function: linear; 
-
-  animation-iteration-count: 2;
-
-  animation-fill-mode: forwards;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-
-    overflow: hidden;
-  }
-
-  100% {
-    transform: rotate(360deg);
-
-    visibility: hidden;
-  }
-}
-
-/*  ANIMATION - Page blanche Loader */
-.LoaderStart {
-  animation: WhitePage 3s;
-}
-
-@keyframes WhitePage {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@media all and (max-width: 400px) {
-
-  /*  SECTION MENUPAGE  */
-
-  .title-sup {
-    font-size: 14px;
-  }
-
+  .intro,
   .menupage {
-    margin: 0px 10px 30px 10px;
+    width: 834px;
   }
-}
+
+  .container {
+
+    align-items: center;
+  }
+
+  /*  BOUTONS DE SELECTION PLATS  */
+
+  .btn-dish {
+    width: 95%;
+  }
+
+
+  .title-dish {
+    width: 95%;
+  }
+
+  /*  ANIMATION - loader  */
+  .loader {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+
+  .loader-side {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 400px auto;
+    border-radius: 50px;
+    border-top: 7px solid #9356DC;
+    border-right: 5px double rgba(91, 25, 93, 0.4);
+    border-bottom: 7px solid #ff79da;
+    border-left: 5px double rgba(91, 25, 93, 0.4);
+    animation-name: spin;
+
+    animation-duration: 1200ms;
+
+    animation-timing-function: linear;
+
+    animation-iteration-count: 2;
+
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+
+      overflow: hidden;
+    }
+
+    100% {
+      transform: rotate(360deg);
+
+      visibility: hidden;
+    }
+  }
+
+  /*  ANIMATION - Page blanche Loader */
+  .LoaderStart {
+    animation: WhitePage 3s;
+  }
+
+  @keyframes WhitePage {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media all and (max-width: 400px) {
+
+    /*  SECTION MENUPAGE  */
+
+    .title-sup {
+      font-size: 14px;
+    }
+
+    .menupage {
+      margin: 0px 10px 30px 10px;
+    }
+  }
