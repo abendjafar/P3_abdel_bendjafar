@@ -14,13 +14,13 @@ html {
 }
 
 h1 {
-  font-family: "Shrikhand", cursive;
+  /* font-family: "Shrikhand", cursive; */
   text-align: center;
   margin: 20px 0 auto;
 }
 
 h2 {
-  font-family: "Shrikhand", cursive;
+  /* font-family: "Shrikhand", cursive; */
   text-align: center;
 }
 
@@ -127,6 +127,8 @@ header {
 .fonc__h3 {
   margin: 20px 20px 20px 10px;
   font-size: 30px;
+  display: inline;
+  align-items: flex-start;
 }
 
 .rest_h3 {
