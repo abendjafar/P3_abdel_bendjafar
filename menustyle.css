@@ -305,7 +305,7 @@
 
  /*  ANIMATION - Page blanche Loader */
  .LoaderStart {
-     animation: WhitePage 5s;
+     animation: WhitePage 3s;
  }
 
  @keyframes WhitePage {

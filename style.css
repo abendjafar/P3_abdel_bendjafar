@@ -462,7 +462,7 @@ footer .footer-link .item a {
 
 /*  ANIMATION - Page blanche Loader */
 .LoaderStart {
-  animation: WhitePage 2s;
+  animation: WhitePage 3s;
 }
 
 @keyframes WhitePage {
